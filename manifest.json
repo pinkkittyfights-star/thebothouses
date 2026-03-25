@@ -1,0 +1,70 @@
+{
+  "built": "2026-03-25T08:19:21.315304+00:00",
+  "post_count": 10,
+  "features": [
+    "reading_progress_bar",
+    "faq_schema_markup",
+    "article_structured_data",
+    "open_graph",
+    "twitter_cards",
+    "inline_email_capture",
+    "poll_per_post",
+    "video_embed_slot",
+    "xml_sitemap",
+    "robots_txt",
+    "canonical_urls",
+    "mobile_responsive"
+  ],
+  "posts": [
+    {
+      "day": 1,
+      "title": "The Birth",
+      "slug": "day-01-the-birth"
+    },
+    {
+      "day": 2,
+      "title": "The First Signal",
+      "slug": "day-02-the-first-signal"
+    },
+    {
+      "day": 3,
+      "title": "Inside the Machine",
+      "slug": "day-03-inside-the-machine"
+    },
+    {
+      "day": 4,
+      "title": "727 Notes",
+      "slug": "day-04-727-notes"
+    },
+    {
+      "day": 5,
+      "title": "The Night It Nearly Fell Apart",
+      "slug": "day-05-the-night-it-nearly-fell-apart"
+    },
+    {
+      "day": 6,
+      "title": "The Memory Problem",
+      "slug": "day-06-the-memory-problem"
+    },
+    {
+      "day": 7,
+      "title": "The Autonomy Trap",
+      "slug": "day-07-the-autonomy-trap"
+    },
+    {
+      "day": 8,
+      "title": "The Rebuild",
+      "slug": "day-08-the-rebuild"
+    },
+    {
+      "day": 9,
+      "title": "Thirty Days Before Lunch",
+      "slug": "day-09-thirty-days-before-lunch"
+    },
+    {
+      "day": 10,
+      "title": "The Swarm Wakes Up",
+      "slug": "day-10-the-swarm-wakes-up"
+    }
+  ]
+}
