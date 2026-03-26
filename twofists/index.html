@@ -62,8 +62,8 @@ header {
 }
 .logo {
   font-family: var(--font-head);
-  font-size: 18px; font-weight: 700;
-  letter-spacing: 0.1em; text-transform: uppercase;
+  font-size: 24px; font-weight: 700;
+  letter-spacing: 0.12em; text-transform: uppercase;
   color: var(--white); text-decoration: none;
 }
 .logo .dot { color: var(--red); }
@@ -138,14 +138,14 @@ header {
 /* BIKE SECTION */
 .bike-section {
   position: relative;
-  width: 100%; max-height: 280px;
+  width: 100%;
   overflow: hidden;
   border-top: 2px solid var(--red);
   border-bottom: 2px solid var(--red);
 }
 .bike-section img {
-  width: 100%; height: 100%;
-  object-fit: cover; object-position: center;
+  width: 100%;
+  height: auto;
   display: block;
   filter: contrast(1.1) saturate(0.9);
 }
@@ -447,7 +447,7 @@ footer {
   .nav-links.open { display: flex; }
   .hamburger { display: block; }
   .footer-inner { flex-direction: column; text-align: center; }
-  .bike-section { max-height: 300px; }
+  .bike-section img { width: 100%; }
 }
 </style>
 </head>
@@ -458,11 +458,10 @@ footer {
 <!-- HEADER -->
 <header>
   <div class="header-inner">
-    <a href="#" class="logo">TWOFISTS<span class="dot">.</span></a>
+    <a href="#" class="logo">TWO<span class="dot">FISTS</span>OF<span class="dot">IRON</span></a>
     <ul class="nav-links" id="navLinks">
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
-      <li><a href="#squad">The Bots</a></li>
       <li><a href="#posts">Blog</a></li>
     </ul>
     <button class="hamburger" id="hamburger" aria-label="Toggle menu">
@@ -474,7 +473,7 @@ footer {
 <!-- HERO -->
 <section class="hero" id="home">
   <div class="hero-tagline fade-up">
-    <img src="twofists_logo.jpg" alt="Two Fists of Iron" style="max-width:500px;width:90%;margin:0 auto;display:block;">
+    <img src="twofists_logo.png" alt="Two Fists of Iron" style="max-width:500px;width:90%;margin:0 auto;display:block;">
   </div>
   <p class="hero-quote fade-up">
     <span>"I built a digital empire so I could live an analog life."</span>
@@ -492,10 +491,10 @@ footer {
 <!-- STATEMENT -->
 <section class="statement" id="about">
   <h2 class="fade-up">No <span>Job Title.</span> No Apologies.</h2>
-  <p class="fade-up">I'm not here to explain myself. I'm not here to inspire you. I'm here because I built something and I felt like writing it down.</p>
-  <p class="fade-up">I built three bots. <strong>Henry</strong> does the heavy lifting. <strong>Sophia</strong> runs the show. The <strong>Trading Bot</strong> makes the money work while I'm not looking at a screen.</p>
+  <p class="fade-up">Most people build businesses to make money. I built mine to make time. This is what happens when you hand the work to machines and walk out the door.</p>
+  <p class="fade-up">I built three bots. <strong>Henry</strong> does the heavy lifting. <strong>Sophia</strong> runs the show. The <strong>Trading Bot</strong> compounds the money they make while I'm out enjoying life.</p>
   <p class="fade-up">That's the whole point. <strong>The machines do the digital. I do the living.</strong></p>
-  <p class="fade-up">Open road. Fresh air. No notifications. The bots handle it. If something's on fire, they tell me. Otherwise, I'm busy being a free man.</p>
+  <p class="fade-up">Open road. Fresh air. No notifications. The bots handle it. If something's on fire, they tell me. Otherwise, I'm busy being a free man. So join me — one Harley 48, every road worth riding, and a digital empire running itself in my back pocket.</p>
 </section>
 
 <!-- SCENIC IMAGE PLACEHOLDER -->
@@ -506,38 +505,7 @@ footer {
   </div>
 </div>
 
-<!-- BOT SQUAD -->
-<section class="squad-section" id="squad">
-  <div class="squad-inner">
-    <div class="squad-header">
-      <div class="eyebrow fade-up">The Crew</div>
-      <h2 class="fade-up">Three Bots. One Mission.</h2>
-    </div>
-    <div class="squad-grid">
-      <div class="squad-card henry fade-up">
-        <div class="squad-avatar">&#9881;</div>
-        <div class="squad-name">Henry Cavendish</div>
-        <div class="squad-role">The Builder</div>
-        <div class="squad-status">&#9679; Live</div>
-        <p class="squad-desc">Builds everything. Monitors everything. If it needs creating, fixing, or improving — Henry does it. No questions. No complaints. Just output.</p>
-      </div>
-      <div class="squad-card sophia fade-up">
-        <div class="squad-avatar">&#9830;</div>
-        <div class="squad-name">Sophia</div>
-        <div class="squad-role">Chief of Staff</div>
-        <div class="squad-status">&#9679; Live</div>
-        <p class="squad-desc">Runs the businesses. Manages the day. Knows where everything is and what needs doing next. Sharp, loyal, doesn't miss a trick.</p>
-      </div>
-      <div class="squad-card bot fade-up">
-        <div class="squad-avatar">&#9889;</div>
-        <div class="squad-name">Trading Bot</div>
-        <div class="squad-role">The Engine</div>
-        <div class="squad-status">&#9679; Running</div>
-        <p class="squad-desc">Watches the markets. Runs the signals. Makes decisions at 3am when I'm asleep and doesn't panic. Cold, precise, relentless.</p>
-      </div>
-    </div>
-  </div>
-</section>
+<!-- SQUAD SECTION REMOVED -->
 
 <!-- BLOG POSTS -->
 <section class="posts-section" id="posts">

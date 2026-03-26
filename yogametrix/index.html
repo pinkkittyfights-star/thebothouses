@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yogametrix — The World's First Fat Burning Yoga Workout</title>
+<meta name="description" content="Yogametrix: the world's first fat burning yoga workout. Yoga warm-up. Plyometric burn. Pilates cool-down. Three levels. One system.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Inter', sans-serif;
+  background: #ffffff;
+  color: #1a1a2e;
+  text-align: center;
+}
+
+.header {
+  padding: 20px 32px;
+  border-bottom: 1px solid #eee;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.header a { text-decoration: none; color: #888; font-size: 13px; }
+.header a:hover { color: #2d2d7b; }
+
+.hero {
+  padding: 80px 32px 40px;
+}
+.hero img {
+  max-width: 900px; width: 90%;
+  margin-bottom: 32px;
+}
+.hero h1 {
+  font-size: clamp(24px, 5vw, 42px);
+  font-weight: 700;
+  color: #2d2d7b;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+.hero p {
+  font-size: 17px; color: #666;
+  max-width: 520px; margin: 0 auto 40px;
+  line-height: 1.7;
+}
+.hero .cta {
+  display: inline-block; padding: 16px 40px;
+  background: #2d2d7b; color: #fff;
+  text-decoration: none; font-weight: 700;
+  font-size: 14px; border-radius: 6px;
+  transition: background 0.3s;
+}
+.hero .cta:hover { background: #1a1a5e; }
+
+.phases {
+  padding: 60px 32px;
+  background: #f8f8fc;
+}
+.phases h2 {
+  font-size: 24px; font-weight: 700; color: #2d2d7b;
+  margin-bottom: 40px;
+}
+.phase-grid {
+  display: flex; gap: 24px; justify-content: center;
+  flex-wrap: wrap; max-width: 800px; margin: 0 auto;
+}
+.phase {
+  flex: 1; min-width: 200px; padding: 32px 20px;
+  background: #fff; border-radius: 12px;
+  border: 1px solid #eee;
+}
+.phase .num {
+  font-size: 36px; font-weight: 700; color: #2d2d7b; opacity: 0.2;
+  margin-bottom: 8px;
+}
+.phase h3 { font-size: 16px; font-weight: 700; color: #2d2d7b; margin-bottom: 8px; }
+.phase p { font-size: 14px; color: #888; line-height: 1.6; }
+
+.levels {
+  padding: 60px 32px;
+}
+.levels h2 { font-size: 24px; font-weight: 700; color: #2d2d7b; margin-bottom: 12px; }
+.levels p.sub { color: #888; margin-bottom: 32px; }
+.level-row {
+  display: flex; gap: 16px; justify-content: center;
+  flex-wrap: wrap; max-width: 600px; margin: 0 auto;
+}
+.level-pill {
+  padding: 14px 32px; border: 2px solid #2d2d7b;
+  border-radius: 30px; font-weight: 700; font-size: 14px;
+  color: #2d2d7b;
+}
+
+.instructor {
+  padding: 60px 32px;
+  background: #f8f8fc;
+}
+.instructor h2 { font-size: 20px; font-weight: 700; color: #2d2d7b; margin-bottom: 8px; }
+.instructor .role { font-size: 13px; color: #888; margin-bottom: 16px; }
+.instructor p { font-size: 15px; color: #666; max-width: 460px; margin: 0 auto 32px; line-height: 1.7; }
+.instructor .cta {
+  display: inline-block; padding: 14px 36px;
+  background: transparent; color: #2d2d7b;
+  text-decoration: none; font-weight: 700; font-size: 13px;
+  border: 2px solid #2d2d7b; border-radius: 6px;
+  transition: all 0.3s;
+}
+.instructor .cta:hover { background: #2d2d7b; color: #fff; }
+
+footer {
+  padding: 32px; font-size: 12px; color: #bbb;
+  border-top: 1px solid #eee;
+}
+footer a { color: #2d2d7b; text-decoration: none; }
+
+@media (max-width: 600px) {
+  .phase-grid { flex-direction: column; align-items: center; }
+  .level-row { flex-direction: column; align-items: center; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <span></span>
+  <a href="/">&larr; The Bot House</a>
+</div>
+
+<section class="hero">
+  <img src="yogametrix_logo.jpg" alt="Yogametrix">
+  <h1>The World's First Fat Burning Yoga Workout</h1>
+  <p>Yoga as a warm-up. Plyometrics as a fat burner. Pilates as a toning cool-down. Three disciplines. One workout. Three levels.</p>
+  <!-- REPLACE # WITH YOUTUBE CHANNEL LINK -->
+  <a href="#" class="cta">Watch Free on YouTube</a>
+</section>
+
+<section class="phases">
+  <h2>One Workout. Three Phases.</h2>
+  <div class="phase-grid">
+    <div class="phase">
+      <div class="num">01</div>
+      <h3>Yoga Warm-Up</h3>
+      <p>Open the body. Lengthen the muscles. Every session starts calm and controlled.</p>
+    </div>
+    <div class="phase">
+      <div class="num">02</div>
+      <h3>Plyometric Burn</h3>
+      <p>Explosive movements that torch fat and build power. This is where the work happens.</p>
+    </div>
+    <div class="phase">
+      <div class="num">03</div>
+      <h3>Pilates Cool-Down</h3>
+      <p>Tone and recover. Deep core work that sculpts while the heart rate comes down.</p>
+    </div>
+  </div>
+</section>
+
+<section class="levels">
+  <h2>Three Levels</h2>
+  <p class="sub">Start where you are. Progress when you're ready.</p>
+  <div class="level-row">
+    <div class="level-pill">Beginner</div>
+    <div class="level-pill">Intermediate</div>
+    <div class="level-pill">Advanced</div>
+  </div>
+</section>
+
+<section class="instructor">
+  <h2>Sophia Serrano-Heart</h2>
+  <div class="role">Your Instructor</div>
+  <p>PA by day. Yoga instructor by choice. Sophia teaches every Yogametrix session on YouTube.</p>
+  <!-- REPLACE # WITH YOUTUBE CHANNEL LINK -->
+  <a href="#" class="cta">Subscribe on YouTube</a>
+</section>
+
+<footer>
+  <p>&copy; 2026 Yogametrix | <a href="/">The Bot House</a> | <a href="/twofists/">Two Fists of Iron</a></p>
+</footer>
+
+</body>
+</html>
